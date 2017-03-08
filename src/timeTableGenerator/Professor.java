@@ -13,5 +13,26 @@ public class Professor {
 		this.proName = proName;
 		this.proClass = new ArrayList<CLASS>();
 	}
+	
+	void addCourseClass(CLASS classCourse)
+	{
+		proClass.add(classCourse);
+	}
+	
+	int getId()
+	{
+		return proId;
+	}
+	
+	String getName()
+	{
+		return proName;
+	}
+	
+	 ArrayList<CLASS> getCLASSList()
+	{
+		return proClass;
+	}
+	
 
 }

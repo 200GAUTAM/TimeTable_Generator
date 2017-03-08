@@ -9,5 +9,15 @@ public class Course {
 		this.couId = couId;
 		this.couName = couName;
 	}
+	
+	int getCourseId()
+	{
+		return couId;
+	}
+	
+	String getCourseName()
+	{
+		return couName;
+	}
 
 }
